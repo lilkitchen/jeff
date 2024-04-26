@@ -34,3 +34,6 @@ while True:
 
 	if c == 'q':
 		break
+
+	if len(c):
+		msg = c
