@@ -25,7 +25,7 @@ while True:
 	e2.expect("\n")
 	e2.expect("\n")
 	msg = e2.before.decode("utf-8")
-	print(">", msg)
+	print("> ", msg)
 
 	try:
 		c = input('')
